@@ -75,7 +75,9 @@ Cross bob;
      fill(bacClrR,bacClrG,bacClrB);
         ellipse(bacX,bacY,10,10);
         fill(255,215,0);
-     ellipse(bacX,bacY,30,30);
+     ellipse(bacX,bacY,30,30); 
+     ellipse(bacX,bacY,20,20);
+      fill (255,255,255);
      
      
 
@@ -127,7 +129,8 @@ Cross bob;
  void show () {
 
     fill (0);
-    ellipse(myX,myY,10,10);
+    ellipse(myX,myY,10,10); 
+    
       } 
 
 }
