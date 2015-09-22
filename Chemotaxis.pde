@@ -74,7 +74,7 @@ Cross bob;
      noStroke();
      fill(bacClrR,bacClrG,bacClrB);
         ellipse(bacX,bacY,10,10);
-        fill(255,0,0);
+        fill(255,215,0);
      ellipse(bacX,bacY,30,30);
      
      
