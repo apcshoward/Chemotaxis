@@ -23,7 +23,7 @@ Cross bob;
  }   
  void draw()   
  {    
-   background(0, 0, 0);
+   background(205,205,193);
 
     bob.show();
     bob.move();
@@ -75,9 +75,10 @@ Cross bob;
      fill(bacClrR,bacClrG,bacClrB);
         ellipse(bacX,bacY,10,10);
         fill(255,215,0);
-     ellipse(bacX,bacY,30,30); 
+     ellipse(bacX,bacY,30,30);  
+        fill (255);
      ellipse(bacX,bacY,20,20);
-      fill (255,255,255);
+      fill (0);
      
      
 
@@ -128,9 +129,12 @@ Cross bob;
 
  void show () {
 
+    fill (255);
+    rect(myX,myY,50,25);  
     fill (0);
-    ellipse(myX,myY,10,10); 
-    
+    rect(myX,myY,10,70); 
+    fill (255,0,0);
+    ellipse(myX+30,myY+12,15,15);
       } 
 
 }
